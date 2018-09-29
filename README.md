@@ -1,2 +1,2 @@
-# theseed-theme-tester
-Basic test of theseed theme
+# theseed-skin-tester
+Basic test of theseed skin

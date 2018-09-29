@@ -1,0 +1,26 @@
+{
+  "name": "theseed-skin-tester",
+  "version": "0.1.0",
+  "description": "Skin tester of theseed engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lastorder-DC/theseed-skin-tester.git"
+  },
+  "keywords": [
+    "theseed"
+  ],
+  "author": "Lastorder-DC",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Lastorder-DC/theseed-skin-tester/issues"
+  },
+  "homepage": "https://github.com/Lastorder-DC/theseed-skin-tester#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "swig-templates": "^2.0.3"
+  }
+}
