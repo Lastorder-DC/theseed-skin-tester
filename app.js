@@ -7,6 +7,26 @@ app.get('/test/:skin', function (req, res) {
   res.redirect('/test/' + req.params.skin + '/document');
 });
 
+app.get('/w/:document', function (req, res) {
+  res.send("그없");
+});
+
+app.get('/edit/:document', function (req, res) {
+  res.send("그없");
+});
+
+app.get('/discuss/:document', function (req, res) {
+  res.send("그없");
+});
+
+app.get('/RecentChanges', function (req, res) {
+  res.send("그없");
+});
+
+app.get('/RecentDiscuss', function (req, res) {
+  res.send("그없");
+});
+
 app.get('/test/:skin/document', function (req, res) {
   app.use('/skins/' + req.params.skin, express.static('./skins/' + req.params.skin + '/static'));
 
