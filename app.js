@@ -3,29 +3,23 @@ var swig    = require('swig-templates');
 var fs      = require('fs');
 var app     = express();
 
+function STUB(req, res) {
+  res.send("STUB()");
+}
+
 app.get('/test/:skin', function (req, res) {
   res.redirect('/test/' + req.params.skin + '/document');
 });
 
-app.get('/w/:document', function (req, res) {
-  res.send("그없");
-});
+app.get('/w/:document', STUB);
 
-app.get('/edit/:document', function (req, res) {
-  res.send("그없");
-});
+app.get('/edit/:document', STUB);
 
-app.get('/discuss/:document', function (req, res) {
-  res.send("그없");
-});
+app.get('/discuss/:document', STUB);
 
-app.get('/RecentChanges', function (req, res) {
-  res.send("그없");
-});
+app.get('/RecentChanges', STUB);
 
-app.get('/RecentDiscuss', function (req, res) {
-  res.send("그없");
-});
+app.get('/RecentDiscuss', STUB);
 
 app.get('/test/:skin/document', function (req, res) {
   app.use('/skins/' + req.params.skin, express.static('./skins/' + req.params.skin + '/static'));
