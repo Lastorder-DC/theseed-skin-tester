@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Lastorder-DC/theseed-skin-tester#readme",
   "dependencies": {
-    "express": "^4.21.1",
+    "express": "^4.21.2",
     "swig-templates": "^2.0.3"
   }
 }
